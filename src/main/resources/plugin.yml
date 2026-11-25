@@ -1,0 +1,6 @@
+name: Contracts
+version: '${version}'
+
+main: dev.pixelframestudios.store.contracts.Contracts
+api-version: '26.3'
+load: POSTWORLD
