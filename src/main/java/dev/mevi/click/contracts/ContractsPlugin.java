@@ -1,4 +1,4 @@
-package dev.pixelframestudios.store.contracts;
+package dev.mevi.click.contracts;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
