@@ -1,8 +1,11 @@
-package dev.mevi.click.contracts.objects;
+package dev.mevi.click.contracts.contract;
 
 import java.time.Instant;
 import java.util.UUID;
 
-public record Contract(UUID uuid, ContractTemplate template, int amount, Instant time) {
-
-}
+public record Contract(
+        UUID id,
+        String templateId,
+        int amount,
+        Instant expiresAt
+) {}

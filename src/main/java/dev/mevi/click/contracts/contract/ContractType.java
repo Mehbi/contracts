@@ -1,6 +1,5 @@
-package dev.mevi.click.contracts.objects;
+package dev.mevi.click.contracts.contract;
 
-public interface ContractType {
-    String getName();
-
+public enum ContractType {
+    KILL_MOB
 }
